@@ -10,7 +10,10 @@ public class ApplicationMain {
         context.register(AppConfig.class);
         context.refresh();
 
-        Store bean = context.getBean(Store.class);
-        System.out.println(bean.getDescription());
+        Store storeWithParametrizedConstructor = context.getBean("storeWithParametrizedConstructor", Store.class);
+        System.out.println(storeWithParametrizedConstructor);
+
+        Store storeWithSetterUsingAnotherBean = context.getBean("storeWithSetterUsingAnotherBean", Store.class);
+        System.out.println(storeWithSetterUsingAnotherBean);
     }
 }
