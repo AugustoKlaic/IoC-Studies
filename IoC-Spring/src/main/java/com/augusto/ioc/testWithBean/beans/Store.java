@@ -1,4 +1,4 @@
-package com.augusto.ioc.beans;
+package com.augusto.ioc.testWithBean.beans;
 
 public class Store {
 
