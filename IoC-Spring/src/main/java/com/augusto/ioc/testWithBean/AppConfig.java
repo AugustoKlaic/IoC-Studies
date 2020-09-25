@@ -1,4 +1,4 @@
-package com.augusto.ioc.testWithBean.beans;
+package com.augusto.ioc.testWithBean;
 
 import com.augusto.ioc.testWithBean.beans.Product;
 import com.augusto.ioc.testWithBean.beans.Store;

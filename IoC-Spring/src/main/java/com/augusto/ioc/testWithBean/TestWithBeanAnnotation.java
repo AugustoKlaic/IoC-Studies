@@ -1,6 +1,5 @@
-package com.augusto.ioc.testWithBean.beans;
+package com.augusto.ioc.testWithBean;
 
-import com.augusto.ioc.testWithBean.beans.AppConfig;
 import com.augusto.ioc.testWithBean.beans.Store;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
