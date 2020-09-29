@@ -1,8 +1,12 @@
 package com.augusto.ioc.usingGuiceModule.beans;
 
+import com.google.inject.Inject;
+
 public class Store {
 
     private String description;
+
+    @Inject
     private Product product;
 
     public Store(String description, Product product) {
