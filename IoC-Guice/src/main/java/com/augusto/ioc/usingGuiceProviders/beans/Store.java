@@ -1,4 +1,4 @@
-package com.augusto.ioc.usingGuiceModule.beans;
+package com.augusto.ioc.usingGuiceProviders.beans;
 
 import com.google.inject.Inject;
 
@@ -6,7 +6,6 @@ public class Store {
 
     private String description;
 
-    @Inject
     private Product product;
 
     public Store(String description, Product product) {

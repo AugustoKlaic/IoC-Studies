@@ -1,7 +1,7 @@
-package com.augusto.ioc.usingGuiceModule;
+package com.augusto.ioc.usingGuiceProviders;
 
-import com.augusto.ioc.usingGuiceModule.beans.Product;
-import com.augusto.ioc.usingGuiceModule.beans.Store;
+import com.augusto.ioc.usingGuiceProviders.beans.Product;
+import com.augusto.ioc.usingGuiceProviders.beans.Store;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 

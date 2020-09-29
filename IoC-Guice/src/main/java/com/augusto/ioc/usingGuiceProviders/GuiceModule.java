@@ -1,9 +1,8 @@
-package com.augusto.ioc.usingGuiceModule;
+package com.augusto.ioc.usingGuiceProviders;
 
-import com.augusto.ioc.usingGuiceModule.beans.Product;
-import com.augusto.ioc.usingGuiceModule.beans.Store;
+import com.augusto.ioc.usingGuiceProviders.beans.Product;
+import com.augusto.ioc.usingGuiceProviders.beans.Store;
 import com.google.inject.AbstractModule;
-import com.google.inject.Provider;
 import com.google.inject.Provides;
 
 public class GuiceModule extends AbstractModule {

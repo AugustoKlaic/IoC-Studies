@@ -1,4 +1,4 @@
-package com.augusto.ioc.usingGuiceModule.beans;
+package com.augusto.ioc.usingGuiceProviders.beans;
 
 public class Product {
     private String name;
