@@ -3,19 +3,21 @@ package com.augusto.ioc.usingBind.beans;
 import com.google.inject.Inject;
 import com.google.inject.name.Named;
 
-public class Store {
+public class Store2 {
 
     private String description;
+    @Inject
+    @Named("productField")
     private Product product;
 
-    @Inject
-    public Store(String description, @Named("productConstructor") Product product) {
+
+    public Store2(String description, Product product) {
         this();
         this.description = description;
         this.product = product;
     }
 
-    public Store() {
+    public Store2() {
     }
 
     public String getDescription() {
@@ -41,4 +43,5 @@ public class Store {
                 ", product=" + product +
                 '}';
     }
+
 }

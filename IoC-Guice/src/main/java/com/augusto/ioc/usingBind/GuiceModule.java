@@ -7,6 +7,7 @@ import com.google.inject.name.Names;
 public class GuiceModule extends AbstractModule {
 
     public void configure() {
-        bind(Product.class).annotatedWith(Names.named("product")).toInstance(new Product("product"));
+        bind(Product.class).annotatedWith(Names.named("productConstructor")).toInstance(new Product("constructorInjection"));
+        bind(Product.class).annotatedWith(Names.named("productField")).toInstance(new Product("fieldInjection"));
     }
 }
